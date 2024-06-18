@@ -29,7 +29,7 @@ export default function CheckboxesGroup({
           />
           })}
         </FormGroup>
-        {errors.input && <span>Answer is required</span>}
+        {errors.input && <span style={{color: "red"}}>Answer is required</span>}
       </FormControl>
   );
 }
