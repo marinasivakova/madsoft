@@ -64,7 +64,7 @@ export default function QuestionCard() {
           <Chip
             color="primary"
             variant="outlined"
-            label={`${ref.current - questions.length}/${ref.current}`}
+            label={`${ref.current - questions.length+1}/${ref.current}`}
           />
         </Box>
       </form>
